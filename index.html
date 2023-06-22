@@ -1,2 +1,14 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<title>Страница</title>
+	</head>
+		
+    <script src ="https://aframe.io/releases/1.1.0/aframe.min.js"></script> 
+	<script src ="https://jeromeetienne.github.io/AR.io/aframe/build/aframe.ar.js"></script>
+	<script src ="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@v6.1.1/dist/aframe-extras.js"></script>
+	
+	<body style='margin : 0px; overflow: hidden;'>
+		<a-scene embedded arjs='sourseType: webcam;'>
+			<a-marker-camera type='pattern' url='pattern-m.patt'>
+				<a-entity gilf-model="url(Blue_end.glb)" position="0 0 0" rotation="0 180 0" scale="2 2 2" 
